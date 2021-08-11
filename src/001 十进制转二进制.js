@@ -6,7 +6,7 @@ const { Stack } = require("./lib/Stack");
  * @returns {String}
  */
 const dec2bin = function (decNum) {
-  if (decNum === 0) {
+  if (decNum === 0) { // 测试之后的修改
     return "0";
   }
   const stack = new Stack();

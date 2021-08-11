@@ -4,7 +4,7 @@ test("测试 100", () => {
   expect(dec2bin(100)).toBe("1100100");
 });
 
-test("测试 0", () => {
+test("测试 0", () => { // 重要测试
   expect(dec2bin(0)).toBe("0");
 });
 
