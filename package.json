@@ -1,0 +1,23 @@
+{
+  "name": "javascript-algorithm",
+  "version": "1.0.0",
+  "description": "一些平时遇到的算法题目",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainforest2022/javascript-algorithm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rainforest2022/javascript-algorithm/issues"
+  },
+  "homepage": "https://github.com/rainforest2022/javascript-algorithm#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
