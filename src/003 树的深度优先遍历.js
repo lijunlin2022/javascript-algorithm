@@ -1,10 +1,11 @@
 const bfs = (v, handler) => {
-  if (Object.keys(v).length !== 0) {
-    handler(v.val);
-    v.children.forEach(item => {
-      bfs(item, handler);
-    });
+  if (Object.keys(v).length === 0) {
+    return;
   }
+  handler(v.val);
+  v.children.forEach(item => {
+    bfs(item, handler);
+  });
 };
 
 const bfsToString = (initV) => {
